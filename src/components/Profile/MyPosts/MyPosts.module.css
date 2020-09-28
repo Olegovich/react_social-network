@@ -1,0 +1,52 @@
+.posts {
+    margin-top: 20px;
+}
+
+.postsTitle {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.postsForm {
+    margin-top: 10px;
+}
+
+.postsFormTextarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #231f20;
+    border: 1px solid #231f20;
+    outline-color: #515862;
+    box-sizing: border-box;
+}
+
+.postsFormTextarea::placeholder {
+    color: #999;
+}
+
+.postsFormSubmit {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #515862;
+    border: none;
+    outline-color: #231f20;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.postsFormSubmit:hover {
+    background-color: #231f20;
+}
+
+.postsList {
+    margin-top: 30px;
+}
