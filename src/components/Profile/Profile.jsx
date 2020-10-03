@@ -6,7 +6,7 @@ import MyPosts from './MyPosts/MyPosts';
 
 const Profile = () => {
   return (
-    <main className={s.content}>
+    <main>
       <section className={s.heading}>
         <img src={ContentBgTop} alt=""/>
       </section>

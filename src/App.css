@@ -17,3 +17,7 @@
         width: 100%;
     }
 }
+
+.app-wrapper-content {
+    grid-area: content;
+}

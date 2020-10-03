@@ -19,17 +19,17 @@
     font-size: 20px;
 }
 
-.item > a {
+.item a {
     display: inline-block;
     padding: 5px 0;
     color: #231f20;
     outline-color: #231f20;
 }
 
-.item > a:hover {
+.item a:hover {
     text-decoration: none;
 }
 
-.item.active > a {
+.item a.active {
     color: #aa1f23;
 }
