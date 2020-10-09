@@ -1,33 +1,3 @@
 .heading {
     margin-bottom: 10px;
 }
-
-.author {
-    display: grid;
-    grid-template-areas:
-            "img info";
-    grid-template-columns: 100px 10fr;
-    grid-gap: 10px;
-}
-
-.authorImgWrap {
-    grid-area: img;
-}
-
-.authorInfo {
-    grid-area: info;
-}
-
-.authorInfo p {
-    margin: 0;
-}
-
-.authorInfoText {
-    margin-top: 15px;
-}
-
-.authorInfoTitle {
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-}

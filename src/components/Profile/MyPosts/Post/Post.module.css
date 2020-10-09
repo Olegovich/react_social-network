@@ -1,3 +1,44 @@
 .item {
-    color: #333;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.itemAvatar {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.itemAvatar img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.itemText {
+    margin-left: 10px;
+}
+
+.itemLikes {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.itemLikesIcon {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.itemLikesIcon img {
+    width: 16px;
+}
+
+.itemLikesCount {
+    color: #515862;
 }
